@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORA</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa-brands fa-canadian-maple-leaf"></i>FLORA</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#popular">popular </a>
+            <a href="#order">order</a>
+            <a href="#articles">articles</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-search"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-bag-shopping"></a>
+           <i class="fas fa-list" id="list"></i>
+           
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                        <img class="image" src="IMAGES/botanics1.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img class="image" src="IMAGES/HOMEPAGE-2L.png" alt="">
+                    <div class="content">
+                        <span class="neon">GET YOUR PLANTS</span>
+                        <h3>HURRY UP</h3>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <img class="image" src="IMAGES/HOMEPAGE-4L.png" alt="">
+                    <div class="content">
+                        <span class="neon">SPECIAL OFFERS</span>
+                        <h3>FOR LIMITED TIME</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="category" id="category">
+       <h4 class="subheading">category</h4>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <img class="categimg" src="IMAGES/CATEGORY1.png" alt="">
+                <h3>live plants</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="btn">explore</a> 
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <img class="categimg" src="IMAGES/CATEGORY2.png" alt="">
+                <h3>seeds</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="btn">explore</a> 
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-eye"></a>
+                <img class="categimg" src="IMAGES/CATEGORY3.png" alt="">
+                <h3>tools</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#" class="btn">explore</a> 
+            </div>
+        </div>
+    </section>
+    
+  <section class="popular" id="popular">
+    <h4 class="subheading">popular</h4>
+    <div class="card-panel">
+        <div class="card">
+            <a href="#" class="fas fa-eye"></a>
+            <img class="popimg" src="IMAGES/POPULAR1.png" alt="">
+            <h3>flowers</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt natus quis assumenda!</p>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+        <div class="card">
+            <a href="#" class="fas fa-eye"></a>
+            <img class="popimg" src="IMAGES/POPULAR2.png" alt="">
+            <h3>fruits</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt natus quis assumenda!</p>
+            <a href="#" class="btn">explore</a>
+        </div>
+
+        <div class="card">
+            <a href="#" class="fas fa-eye"></a>
+            <img class="popimg" src="IMAGES/POPULAR3.png" alt="">
+            <h3>air purifiers</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt natus quis assumenda!</p>
+            <a href="#" class="btn">explore</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="order" id="order">
+    <h4 class="subheading">order here</h4>
+    <div class="items">
+        <img class="orimg" src="IMAGES/ORDER.png" alt="">
+    <form action="">
+        <div class="inputbox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+
+            <div class="input">
+                <span>your email</span>
+                <input type="text" placeholder="enter your email">
+            </div>
+
+            <div class="input">
+                <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="1"></textarea>
+            </div>
+
+            <div class="input">
+                <span>product name</span>
+                <input type="text" placeholder="enter product name">
+            </div>
+
+            <div class="input">
+                <span>quantity</span>
+                <input type="number" placeholder="enter quantity">
+            </div>
+        </div>
+        <input type="submit" value="proceed" class="btn">
+    </form>
+</div>
+  </section>
+
+<section class="articles" id="articles">
+    <h4 class="subheading">articles</h4>
+    <div class="article-panel">
+        <div class="material">
+            <img class="arimg" src="IMAGES/ARTICLES1.png" alt="">
+            <h3>how to plant a seed</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos aspernatur incidunt, cumque tenetur numquam maiores sequi illum obcaecati est doloribus odio animi excepturi tempora. Libero incidunt eaque dolores laboriosam.</p>
+            <a href="#" class="btn">read</a>
+        </div>
+
+        <div class="material">
+            <img class="arimg" src="IMAGES/ARTICLES2.png" alt="">
+            <h3>how to take care of a plant</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos aspernatur incidunt, cumque tenetur numquam maiores sequi illum obcaecati est doloribus odio animi excepturi tempora. Libero incidunt eaque dolores laboriosam.</p>
+            <a href="#" class="btn">read</a>
+        </div>
+
+        <div class="material">
+            <img class="arimg" src="IMAGES/ARTICLES3.png" alt="">
+            <h3>guide for gardening</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quos aspernatur incidunt, cumque tenetur numquam maiores sequi illum obcaecati est doloribus odio animi excepturi tempora. Libero incidunt eaque dolores laboriosam.</p>
+            <a href="#" class="btn">read</a>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer-box">
+
+<div class="box">
+    <h3>quick links</h3>
+    <a href="#">home</a>
+    <a href="#">category</a>
+    <a href="#">popular</a>
+    <a href="#">order</a>
+    <a href="#">articles</a>
+</div>
+
+        <div class="box">
+            <h3>follow us</h3>
+        <a href="#" class="fa-brands fa-instagram"></a>
+        <a href="#" class="fa-brands fa-twitter"></a>
+        <a href="#" class="fa-brands fa-youtube"></a>
+        <a href="#" class="fa-brands fa-facebook"></a>
+    </div>
+    </div>
+    <div class="credit">&#169 copyright @ 2022 by<span> flora botanics</span> </div>
+</section>
+
+<div class="loader-container">
+    <img src="images/LOADING.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="Script.js" defer></script>
+</body>
+</html>
